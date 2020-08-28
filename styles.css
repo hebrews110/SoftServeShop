@@ -1,0 +1,361 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+    position: relative;
+    background-image: url(icecreamshop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    position: relative;
+    background-color: #669999;
+    z-index: 0;
+}
+
+html, body, #game-container {
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    overscroll-behavior: none;
+}
+
+.body,
+.wrapper {
+    /* Break the flow */
+    position: absolute;
+    top: 0px;
+
+    /* Give them all the available space */
+    width: 100%;
+    height: 100%;
+
+    /* Remove the margins if any */
+    margin: 0;
+
+    /* Allow them to scroll down the document */
+    overflow: hidden;
+}
+
+.slime-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.slime-column {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    overflow: visible;
+    padding: 0 4vw;
+    will-change: transform;
+}
+.slime-img {
+    position: relative;
+    transform: translateY(-100%);
+    width: 100%;
+    overflow: visible;
+    cursor: pointer;
+}
+.slime-img img {
+    max-width: 100%;
+}
+.slime-img span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    cursor: inherit;
+    font-size: 2rem;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+.aimer {
+    position: absolute;   
+}
+
+#aim-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+}
+
+#aimer-container {
+    position: relative;
+    transition: transform linear 0.2s;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: row;
+    pointer-events: none;
+}
+
+#aimer {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 100%;
+    position: relative;
+}
+
+.missile {
+    bottom: 20%;
+}
+.rocket {
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: contain;
+    z-index: 1;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.missile {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+.missile-container {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    display: none;
+}
+.game-info {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+.game-info span {
+    font-size: 3rem;
+}
+.game-info small {
+    font-size: 2rem;
+}
+
+.dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    backface-visibility: hidden;
+    transform: translate(-50%, -50%);
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0) translate(-50%, -50%);
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    z-index: 10;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+.dialog h1 {
+    text-align: center;
+}
+
+.counter {
+    background: linear-gradient(to bottom, #aaa, #eee 60%, #aaa 100%);
+    border-top: black 4px solid;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: visible;
+}
+.icecreams {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+.bowls-hidden .ice-cream-bowl {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.ice-cream-bowl {
+    flex: none;
+    width: 20vw;
+    padding-top: 8vw;
+    cursor: pointer;
+    position: relative;
+    margin: 0 auto;
+    background-color: #ff00ff;
+    background-image: url(icecreamoverlay.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: skyblue 8px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ice-cream-bowl span {
+    background: white;
+    border-radius: 1em;
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: 50%;
+    cursor: inherit;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.ice-cream-cone {
+    flex: none;
+    width: 10vw;
+    margin-left: 1vw;
+    position: relative;
+    transform: translateY(-50%);
+}
+.cone {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.scoop {
+    width: 110%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-13vw);
+    filter: brightness(0) saturate(100%) invert(19%) sepia(81%) saturate(3672%) hue-rotate(291deg) brightness(110%) contrast(132%);
+}
+
+.gui-info {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.number-box {
+    display: inline-flex;
+    flex: none;
+    vertical-align: bottom;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 1rem;
+    align-items: center;
+}
+
+.number-contents {
+    width: 3em;
+    display: inline-block;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.25rem 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.progress-box {
+    align-items: flex-start;
+}
+
+.progress-box .number-contents {
+    width: 100%;
+}
+
+#happiness-bar {
+    height: 1.5em;
+    transition: width 0.5s linear;
+    background-color: green;
+}
+.customer {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 80%;
+    transform: translateX(100%) translateY(-80%);
+    z-index: -1;
+    transform-origin: center center;
+    transition: transform 0.5s linear;
+}
+
+.customer img {
+    max-width: 100%;
+}
+
+.customer-ordering {
+    transform: translateX(-50%) translateY(-80%);
+    transition: transform 0.5s linear;
+}
+
+.customer-angers {
+    transform: rotate(10deg) translateX(-50%) translateY(-80%);
+    transition: none;
+}
+
+.customer-leaving-happily {
+    transform: translateX(-400%) translateY(-80%);
+    transition: transform 0.5s linear;
+}
+
+.ice-cream-info {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 4px black solid;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#question-span {
+    font-weight: bold;
+}

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (1.0+r73+1)"
+   height="60.874065"
+   width="34.764896"
+   sodipodi:docname="cone.svg"
+   x="0px"
+   y="0px"
+   enable-background="new 0 0 144 216"
+   viewBox="0 0 34.764896 60.874065"
+   xml:space="preserve"
+   version="1.1"
+   id="Layer_1"><defs
+   id="defs93">
+	
+	
+
+			
+				<defs
+   id="defs5">
+					<polygon
+   points="53.881,109.43 70.866,168.59 87.667,109.43 "
+   id="SVGID_1_" />
+				</defs>
+				<clipPath
+   id="SVGID_2_">
+					<use
+   height="100%"
+   width="100%"
+   y="0"
+   x="0"
+   id="use7"
+   xlink:href="#SVGID_1_"
+   overflow="visible" />
+				</clipPath>
+				
+			
+			
+			
+			
+	</defs><sodipodi:namedview
+   inkscape:current-layer="Layer_1"
+   inkscape:window-maximized="1"
+   inkscape:window-y="0"
+   inkscape:window-x="0"
+   inkscape:cy="-1.06075"
+   inkscape:cx="18.60918"
+   inkscape:zoom="3.9212963"
+   fit-margin-bottom="0"
+   fit-margin-right="0"
+   fit-margin-left="0"
+   fit-margin-top="0"
+   showgrid="false"
+   id="namedview91"
+   inkscape:window-height="1027"
+   inkscape:window-width="1920"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0"
+   guidetolerance="10"
+   gridtolerance="10"
+   objecttolerance="10"
+   borderopacity="1"
+   bordercolor="#666666"
+   pagecolor="#ffffff" />
+<polygon
+   transform="translate(-53.39082,-109.06075)"
+   id="polygon2"
+   points="53.881,109.43 70.866,168.59 87.667,109.43 "
+   fill="#f4dda8"
+   stroke-width="0.7385"
+   stroke="#c1a46b" /><g
+   transform="translate(-53.39082,-109.06075)"
+   id="g74"
+   fill="none"
+   clip-path="url(#SVGID_2_)"
+   stroke="#c1a46b">
+					<line
+   id="line10"
+   stroke-width="0.7385"
+   y2="89.481003"
+   x1="28.32"
+   y1="129.17"
+   x2="68.521004" />
+					<line
+   id="line12"
+   stroke-width="0.7385"
+   y2="92.832001"
+   x1="31.628"
+   y1="132.53"
+   x2="71.830002" />
+					<line
+   id="line14"
+   stroke-width="0.7385"
+   y2="95.962997"
+   x1="34.719002"
+   y1="135.66"
+   x2="74.920998" />
+					<line
+   id="line16"
+   stroke-width="0.7385"
+   y2="99.313004"
+   x1="38.028"
+   y1="139.00999"
+   x2="78.228996" />
+					<line
+   id="line18"
+   stroke-width="0.7385"
+   y2="103.14"
+   x1="41.811001"
+   y1="142.84"
+   x2="82.013" />
+					<line
+   id="line20"
+   stroke-width="0.7385"
+   y2="106.5"
+   x1="45.118999"
+   y1="146.19"
+   x2="85.319" />
+					<line
+   id="line22"
+   stroke-width="0.7385"
+   y2="109.63"
+   x1="48.209999"
+   y1="149.32001"
+   x2="88.413002" />
+					<line
+   id="line24"
+   stroke-width="0.7385"
+   y2="112.98"
+   x1="51.518002"
+   y1="152.67"
+   x2="91.720001" />
+					<line
+   id="line26"
+   stroke-width="0.7385"
+   y2="117.07"
+   x1="55.561001"
+   y1="156.77"
+   x2="95.763" />
+					<line
+   id="line28"
+   stroke-width="0.7385"
+   y2="120.42"
+   x1="58.868999"
+   y1="160.12"
+   x2="99.070999" />
+					<line
+   id="line30"
+   stroke-width="0.7385"
+   y2="123.55"
+   x1="61.960999"
+   y1="163.24001"
+   x2="102.16" />
+					<line
+   id="line32"
+   stroke-width="0.7385"
+   y2="126.9"
+   x1="65.267998"
+   y1="166.60001"
+   x2="105.47" />
+					<line
+   id="line34"
+   stroke-width="0.7385"
+   y2="130.73"
+   x1="69.051003"
+   y1="170.42999"
+   x2="109.25" />
+					<line
+   id="line36"
+   stroke-width="0.7385"
+   y2="134.08"
+   x1="72.360001"
+   y1="173.78"
+   x2="112.56" />
+					<line
+   id="line38"
+   stroke-width="0.7385"
+   y2="137.22"
+   x1="75.450996"
+   y1="176.91"
+   x2="115.65" />
+					<line
+   id="line40"
+   stroke-width="0.7385"
+   y2="140.56"
+   x1="78.760002"
+   y1="180.25999"
+   x2="118.96" />
+					<line
+   id="line42"
+   stroke-width="0.8296"
+   y2="134.71001"
+   x1="73.134003"
+   y1="185.44"
+   x2="23.041" />
+					<line
+   id="line44"
+   stroke-width="0.8296"
+   y2="131.39999"
+   x1="76.483002"
+   y1="182.14"
+   x2="26.391001" />
+					<line
+   id="line46"
+   stroke-width="0.8296"
+   y2="128.31"
+   x1="79.614998"
+   y1="179.03999"
+   x2="29.521" />
+					<line
+   id="line48"
+   stroke-width="0.8296"
+   y2="125"
+   x1="82.964996"
+   y1="175.74001"
+   x2="32.873001" />
+					<line
+   id="line50"
+   stroke-width="0.8296"
+   y2="121.22"
+   x1="86.796997"
+   y1="171.95"
+   x2="36.703999" />
+					<line
+   id="line52"
+   stroke-width="0.8296"
+   y2="117.91"
+   x1="90.146004"
+   y1="168.64999"
+   x2="40.055" />
+					<line
+   id="line54"
+   stroke-width="0.8296"
+   y2="114.82"
+   x1="93.278"
+   y1="165.56"
+   x2="43.186001" />
+					<line
+   id="line56"
+   stroke-width="0.8296"
+   y2="111.52"
+   x1="96.627998"
+   y1="162.25"
+   x2="46.535999" />
+					<line
+   id="line58"
+   stroke-width="0.8296"
+   y2="107.47"
+   x1="100.72"
+   y1="158.2"
+   x2="50.630001" />
+					<line
+   id="line60"
+   stroke-width="0.8296"
+   y2="104.16"
+   x1="104.07"
+   y1="154.89999"
+   x2="53.98" />
+					<line
+   id="line62"
+   stroke-width="0.8296"
+   y2="101.07"
+   x1="107.2"
+   y1="151.8"
+   x2="57.111" />
+					<line
+   id="line64"
+   stroke-width="0.8296"
+   y2="97.763"
+   x1="110.55"
+   y1="148.5"
+   x2="60.460999" />
+					<line
+   id="line66"
+   stroke-width="0.8296"
+   y2="93.981003"
+   x1="114.39"
+   y1="144.71001"
+   x2="64.292999" />
+					<line
+   id="line68"
+   stroke-width="0.8296"
+   y2="90.672997"
+   x1="117.74"
+   y1="141.41"
+   x2="67.642998" />
+					<line
+   id="line70"
+   stroke-width="0.8296"
+   y2="87.581001"
+   x1="120.87"
+   y1="138.32001"
+   x2="70.774002" />
+					<line
+   id="line72"
+   stroke-width="0.8296"
+   y2="84.273003"
+   x1="124.22"
+   y1="135.00999"
+   x2="74.125" />
+				</g>
+<metadata
+   id="metadata88"><rdf:RDF><cc:Work><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><cc:license
+         rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" /><dc:publisher><cc:Agent
+           rdf:about="http://openclipart.org/"><dc:title>Openclipart</dc:title></cc:Agent></dc:publisher><dc:title></dc:title><dc:date>2013-06-05T23:46:14</dc:date><dc:description>a reddish, and greenish ice cream cone vector</dc:description><dc:source>https://openclipart.org/detail/178983/ice-cream-cone-by-ccarson-178983</dc:source><dc:creator><cc:Agent><dc:title>ccarson</dc:title></cc:Agent></dc:creator><dc:subject><rdf:Bag><rdf:li>cone</rdf:li><rdf:li>dessert</rdf:li><rdf:li>food</rdf:li><rdf:li>ice cream</rdf:li><rdf:li>sweet</rdf:li></rdf:Bag></dc:subject></cc:Work><cc:License
+       rdf:about="http://creativecommons.org/publicdomain/zero/1.0/"><cc:permits
+         rdf:resource="http://creativecommons.org/ns#Reproduction" /><cc:permits
+         rdf:resource="http://creativecommons.org/ns#Distribution" /><cc:permits
+         rdf:resource="http://creativecommons.org/ns#DerivativeWorks" /></cc:License></rdf:RDF></metadata></svg>

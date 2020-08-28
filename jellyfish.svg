@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (1.0+r73+1)"
+   sodipodi:docname="jellyfish.svg"
+   id="svg37"
+   version="1.1"
+   height="530"
+   width="472">
+  <sodipodi:namedview
+     inkscape:current-layer="svg37"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="265"
+     inkscape:cx="236"
+     inkscape:zoom="1.5981132"
+     showgrid="false"
+     id="namedview39"
+     inkscape:window-height="1027"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs17">
+    <filter
+       id="imagebot_4"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="imagebot_21"
+         stdDeviation="1.27847" />
+    </filter>
+    <filter
+       id="imagebot_7"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="imagebot_20"
+         stdDeviation="3.6179" />
+    </filter>
+    <radialGradient
+       id="imagebot_12"
+       gradientUnits="userSpaceOnUse"
+       cy="232.66"
+       cx="436.01"
+       gradientTransform="matrix(-0.14458,0.7908,-0.99831,-0.18252,685.73,-71.706)"
+       r="223.57">
+      <stop
+         id="imagebot_19"
+         offset="0"
+         stop-color="#9fc1d2" />
+      <stop
+         id="imagebot_18"
+         offset="1"
+         stop-color="#ffffff" />
+    </radialGradient>
+    <filter
+       id="imagebot_10"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="imagebot_17"
+         stdDeviation="3.86166" />
+    </filter>
+    <filter
+       id="imagebot_14"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="imagebot_16"
+         stdDeviation="2.28946" />
+    </filter>
+    <linearGradient
+       id="imagebot_33">
+      <stop
+         offset="0"
+         id="imagebot_45"
+         stop-color="rgb(0, 0, 0)" />
+      <stop
+         offset="1"
+         id="imagebot_44"
+         stop-color="rgb(0, 0, 0)" />
+    </linearGradient>
+    <radialGradient
+       xlink:href="#imagebot_33"
+       id="imagebot_28"
+       cx="225.49467"
+       cy="345.81219"
+       fx="225.49467"
+       fy="345.81219"
+       r="38.55332"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(75.5275,18.0396)" />
+  </defs>
+  <g
+     transform="rotate(-10.510923,231.28996,278.50151)"
+     id="imagebot_2"
+     label="Ebene 1">
+    <g
+       id="imagebot_13"
+       fill="none"
+       stroke-width="11"
+       stroke-linecap="round"
+       stroke="#50adcb"
+       filter="url(#imagebot_14)"
+       stroke-linejoin="round"
+       opacity="0.77333"
+       label="Ebene 1"
+       transform="translate(-122.365,-171.931)">
+      <path
+         id="imagebot_15"
+         d="m 551.54,482.64 c -9.0034,9.4812 -26.825,21.554 -26.264,41.416 6.3691,32.296 31.865,66.547 11.112,88.893 -10.775,13.765 -24.58,10.012 -37.376,46.467 -4.5555,23.087 8.7549,27.476 12.122,37.376 m -34.34,-233.36 c -14.817,12.007 -36.418,16.102 -36.365,45.457 21.813,30.467 24.926,44.968 21.213,54.548 -14.288,36.864 -5.3747,13.66 -28.284,50.508 -12.538,20.166 18.232,33.279 8.0812,65.66 m -36.366,-234.36 c -8.1371,14.788 -26.465,24.48 -20.203,46.467 23.593,39.743 17.016,55.986 15.152,63.64 -3.718,15.266 -38.908,37.348 -42.426,62.629 -5.4104,38.877 9.3617,38.993 23.234,58.589 m -39.4,-244.45 c -15.666,9.7582 -36.656,16.081 -34.345,35.355 1.4505,12.1 22.492,42.124 12.122,78.792 -14.383,50.859 -40.336,52.614 -46.467,64.65 -12.447,26.171 0.007,33.666 8.0812,44.447 m -3.0305,-233.35 c -33.626,37.586 -42.948,72.461 -26.264,90.914 21.496,41.402 -36.206,34.132 -32.325,62.629 14.152,19.64 12.299,39.312 -1.0102,48.487 l -15.152,17.173 m -6.0609,-228.29 c -21.785,15.676 -10.302,35.07 -6.0609,75.761 2.0544,19.711 -56.994,39.676 -35.355,96.975 5.6432,14.943 -16.266,14.816 -16.162,24.244"
+         fill="none"
+         stroke-width="11"
+         stroke-linecap="round"
+         stroke="#50adcb"
+         stroke-linejoin="round" />
+    </g>
+    <path
+       style="fill:url(#imagebot_12)"
+       id="imagebot_11"
+       d="m 141.42,398.79 c 5.8801,-12.303 20.908,-18.488 34.345,-23.234 17.391,-34.306 35.3,-66.09 60.609,-103.04 42.689,-60.369 100.08,-96.935 171.73,-76.772 48.936,13.217 102.02,39.6 117.18,78.792 27.213,45.488 6.8584,78.17 15.152,116.17 1.567,26.671 11.805,33.825 23.234,47.477 21.118,25.226 19.484,39.712 12.122,43.437 -20.327,10.282 -40.189,-5.1485 -56.569,-15.152 -14.561,13.437 -32.589,4.3409 -52.528,-17.173 -20.876,21.805 -41.753,5.488 -62.629,-15.152 -20.917,13.114 -42.091,21.865 -65.66,-10.102 -39.017,18.502 -50.293,0.72101 -56.569,-7.0711 -17.02,8.9123 -42.448,16.103 -76.772,-9.0914 -36.523,6.1553 -79.05,15.913 -63.64,-9.0914 z"
+       fill="url(#imagebot_12)"
+       stroke-width="7.3"
+       stroke-linecap="round"
+       stroke="#154e73"
+       stroke-linejoin="round"
+       label="Ebene 1"
+       transform="translate(-122.365,-171.931)" />
+    <path
+       id="imagebot_9"
+       d="m 283.85,412.94 c 35.08,-28.52 52.71,-202.75 105.06,-202.03 v -1.0102 m 9.0914,2.0203 c 50.305,46.09 27.373,261.13 50.508,245.47 m -53.54,-247.5 c -21.047,-19.099 -34.151,169.62 -56.569,212.13 m 55.558,-213.14 c -16.128,60.021 -1.7637,200.6 -29.294,231.32 m 31.31,-230.31 c 31.047,56.527 -14.553,184.89 10.102,223.24 m -7.07,-224.25 c 105.21,81.08 44.509,204.11 68.69,235.37 m -68.69,-232.33 c 166.06,83.16 52.83,196.94 116.17,250.51 m -115.16,-255.57 c 190.77,44.624 62.047,165.49 166.68,271.73 m -173.75,-270.72 c -39.215,-6.5752 -54.542,199.11 -94.954,219.2 m 97.985,-219.2 c -73.3,-16.79 -108.71,218.74 -157.58,213.15 m 150.51,-214.16 c -105.91,-0.54 -124.43,209.89 -185.87,200.01 m 173.75,-202.03 c -201.84,27.98 -83.66,168.12 -234.36,202.03"
+       fill="none"
+       stroke-width="8.1"
+       stroke-linecap="round"
+       stroke="#154e73"
+       filter="url(#imagebot_10)"
+       stroke-linejoin="round"
+       opacity="0.33667"
+       label="Ebene 1"
+       transform="translate(-122.365,-171.931)" />
+    <g
+       id="imagebot_6"
+       transform="matrix(1.109,0.10957,-0.1059,0.99418,-132.355,-212.928)"
+       fill="#9fc1d2"
+       stroke-linecap="round"
+       stroke="#154e73"
+       filter="url(#imagebot_7)"
+       stroke-linejoin="round"
+       label="Ebene 1">
+      <path
+         id="imagebot_8"
+         d="m 302.2,224.6 c 6.6825,9.0473 50.042,-1.9357 75.854,-5.9279 5.839,-9.0456 6.1958,-15.628 -5.4967,-16.796 -30.129,-10.754 -68.65,16.13 -70.357,22.724 z m 99.627,-13.029 c -0.43591,4.9289 -0.74,9.6199 5.6282,13.917 17.141,7.1257 60.577,19.823 57.028,3.6783 -21.647,-17.208 -61.426,-31.502 -62.656,-17.596 z m 7.0261,36.904 c -10.895,2.8045 -7.3189,25.547 2.3845,38.32 28.742,12.053 57.786,17.651 83.457,10.808 2.1952,-33.926 -29.257,-63.695 -85.842,-49.129 z m -64.912,-13.608 c -31.424,0.96487 -64.281,27.992 -61.516,37.136 -8.6502,22.834 69.746,22.653 86.385,20.523 4.1139,-14.628 11.758,-49.234 -24.868,-57.659 z"
+         fill="#9fc1d2"
+         stroke-width="7.5314"
+         stroke-linecap="round"
+         stroke="#154e73"
+         stroke-linejoin="round" />
+    </g>
+    <g
+       id="imagebot_3"
+       transform="translate(-125.396,-170.921)"
+       fill="none"
+       stroke-width="5.5"
+       stroke-linecap="round"
+       stroke="#154e73"
+       filter="url(#imagebot_4)"
+       stroke-linejoin="round"
+       label="Ebene 1">
+      <path
+         id="imagebot_5"
+         d="m 508.11,471.52 c -8.8315,1.6433 -18.421,7.3381 -14.142,27.274 3.6018,16.781 14.789,28.213 4.0406,43.437 -7.0713,10.015 -13.985,24.844 -11.112,31.315 9.0576,20.397 -3.5441,37.039 -11.112,55.558 m -41.41,-171.73 c -11.996,10.368 -21.75,24.679 -14.142,38.386 6.4151,11.558 20.243,19.895 13.132,31.315 -5.8536,9.4014 -20.676,14.154 -14.142,28.284 12.257,26.506 4.9638,38.832 -8.0812,44.447 m -47.49,-152.53 c -6.9987,5.3938 -18.518,12.591 -12.122,27.274 3.5836,8.2264 8.2972,9.3392 16.162,23.234 5.9363,10.487 0.0943,27.144 -9.0914,34.345 -26.482,20.759 -14.853,42.422 -22.223,63.64 m -32.32,-160.61 c -31.068,22.934 -27.932,33.485 -22.223,43.437 11.413,19.896 7.9193,35.419 0,40.406 -12.494,7.8672 -26.637,40.997 -18.183,56.569 m -27.27,-149.5 c 1.9175,2.5799 5.293,24.766 -3.0305,36.366 -7.9012,11.011 -24.882,16.274 -28.284,34.345 -2.651,14.08 9.075,24.183 10.102,34.345 2.0527,20.32 -12.969,32.223 -22.223,35.355"
+         fill="none"
+         stroke-width="5.5"
+         stroke-linecap="round"
+         stroke="#154e73"
+         stroke-linejoin="round" />
+    </g>
+    <title
+       id="title27">Ebene 1</title>
+    <metadata
+       id="imagebot_32">image/svg+xmllogoabril 2011M Mlogolentesglassesverdeblancogrisnegrologo de un website<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:title></dc:title>
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+    <path
+       d="m 240.9035,363.85179 c 0,19.71841 -15.98492,35.70333 -35.70333,35.70333 -19.7184,0 -35.70332,-15.98492 -35.70332,-35.70333 0,-19.7184 15.98492,-35.70332 35.70332,-35.70332 19.71841,0 35.70333,15.98492 35.70333,35.70332 z"
+       id="imagebot_29"
+       stroke-opacity="0.61497"
+       stroke-miterlimit="4"
+       stroke-width="5.7"
+       stroke="#000000"
+       fill="#ffffff"
+       label="Capa 1"
+       transform="matrix(0.720093,0.138444,-0.138444,0.720093,87.7487,-68.3005)" />
+    <path
+       style="stroke:url(#imagebot_28)"
+       id="imagebot_27"
+       d="m 336.7255,363.85179 c 0,19.71841 -15.98492,35.70333 -35.70333,35.70333 -19.7184,0 -35.70332,-15.98492 -35.70332,-35.70333 0,-19.7184 15.98492,-35.70332 35.70332,-35.70332 19.71841,0 35.70333,15.98492 35.70333,35.70332 z"
+       stroke-opacity="0.61497"
+       stroke-miterlimit="4"
+       stroke-width="5.7"
+       stroke="url(#imagebot_28)"
+       fill="#ffffff"
+       label="Capa 1"
+       transform="matrix(0.720093,0.138444,-0.138444,0.720093,87.7487,-68.3005)" />
+    <path
+       id="imagebot_26"
+       d="m 244.28591,306.53854 c 0,6.74577 -5.80506,12.2143 -12.96595,12.2143 -7.16089,0 -12.96594,-5.46853 -12.96594,-12.2143 0,-6.74577 5.80505,-12.21429 12.96594,-12.21429 7.16089,0 12.96595,5.46852 12.96595,12.21429 z"
+       transform="matrix(0.730527,0.14045,-0.14045,0.730527,63.5154,-28.9887)"
+       fill="#000000"
+       opacity="0.83857"
+       label="Capa 1" />
+    <path
+       transform="matrix(0.730527,0.14045,-0.14045,0.730527,132.787,-15.6707)"
+       d="m 244.28591,306.53854 c 0,6.74577 -5.80506,12.2143 -12.96595,12.2143 -7.16089,0 -12.96594,-5.46853 -12.96594,-12.2143 0,-6.74577 5.80505,-12.21429 12.96594,-12.21429 7.16089,0 12.96595,5.46852 12.96595,12.21429 z"
+       id="imagebot_25"
+       fill="#000000"
+       opacity="0.83857"
+       label="Capa 1" />
+  </g>
+  <metadata
+     id="metadata35">image/svg+xmlOpenclipartJellyfish2011-05-07T11:55:50Jellyfish, can be used as a dot, for example.https://openclipart.org/detail/137089/jellyfish-by-moiniMoinianimalcartoonjelliesjellyjellyfishmarinemedusaoceanseasea jelly</metadata>
+</svg>
