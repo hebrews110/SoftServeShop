@@ -75,7 +75,7 @@ window.onchoosefn = function(event) {
     Howler.autoSuspend = false;
     
     var incorrectSound = new Howl({
-        src: ['incorrect.mp3']
+        src: ['incorrect.wav']
     });
     
     var correctSound = new Howl({
@@ -118,15 +118,22 @@ window.onchoosefn = function(event) {
         if(pointDelta < 0 && firstTry) {
             firstTry = false;
             customer.classList.add("customer-angers");
-            setTimeout(function() {
-                window.alert("Nope! Try again!");
-            }, 0);
+            Swal.fire({
+                title: 'Nope!',
+                icon: 'error',
+                text: 'Give it another try.'
+            });
             return;
         }
     
         if(pointDelta < 0) {
             numSad++;
             customer.classList.remove("customer-ordering");
+            Swal.fire({
+                title: 'Nope!',
+                icon: 'error',
+                text: 'The correct answer was ' + currentCorrectAnswer + '.'
+            });
         } else if(pointDelta > 0) {
             numHappy++;
             customer.classList.remove("customer-angers");
