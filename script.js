@@ -88,6 +88,8 @@ window.onchoosefn = function(event) {
     }
     window.maxResultSize = maxResultSize;
     
+    window.generateMathQuestions(operation, maxResultSize);
+    numCustomers = Math.min(Math.round(window.mathQuestions.length * 1.1), numCustomers);
     function getRandomIntInclusive(min, max) {
         min = Math.ceil(min);
         max = Math.floor(max);
@@ -167,34 +169,15 @@ window.onchoosefn = function(event) {
                 return;
             }
             var correctInitialColumn = getRandomIntInclusive(0, NUM_COLUMNS - 1);
-            currentCorrectAnswer = getRandomIntInclusive(1, maxResultSize);
+            /* MATH CORE BEGIN */
             var firstFactor, secondFactor, symbol;
+            var retrievedQuestion = window.getNextMathQuestion();
+            firstFactor = retrievedQuestion.operands[0];
+            secondFactor = retrievedQuestion.operands[1];
+            symbol = window.mathSymbol;
+            currentCorrectAnswer = retrievedQuestion.currentCorrectAnswer;
             
-            if(operation != null)
-                operation = operation.trim();
-            
-            if(operation == "add") {
-                symbol = "&plus;";
-                firstFactor = getRandomIntInclusive(1, currentCorrectAnswer);
-                secondFactor = currentCorrectAnswer - firstFactor;
-            } else if(operation == "subtract") {
-                symbol = "&minus;";
-                currentCorrectAnswer = getRandomIntInclusive(1, (window).maxResultSize);
-                secondFactor = getRandomIntInclusive(1, (window).maxResultSize);
-                firstFactor = currentCorrectAnswer + secondFactor;
-                console.log((window).maxResultSize);
-            } else if(operation == "multiply") {
-                symbol = "&times;";
-                firstFactor = getRandomIntInclusive(1, (window).maxResultSize);
-                secondFactor = getRandomIntInclusive(1, (window).maxResultSize);
-                currentCorrectAnswer = firstFactor * secondFactor;
-            } else if(operation == "divide") {
-                var divisor = getRandomIntInclusive(2, 6);
-                firstFactor = currentCorrectAnswer * divisor;
-                secondFactor = divisor;
-                symbol = "&divide;";
-            } else
-                window.alert("Unknown ?operation");
+            /* MATH CORE END */
             document.querySelector("#question-span").innerHTML = "" + firstFactor + " " + symbol + " " + secondFactor;
             var incorrectAnswers = [];
             for(var i = 0; i < (NUM_COLUMNS-1); i++) {
