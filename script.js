@@ -82,7 +82,7 @@ window.onchoosefn = function(event) {
         src: ['correct.wav'],
     });
     
-    var maxResultSize = document.querySelector("#facts-to-5").checked ? 5 : 9;
+    var maxResultSize = document.querySelector("#facts-to-5").checked ? 5 : 10;
     if(isNaN(maxResultSize)) {
         window.alert("need ?max to be a number");
     }
